@@ -12,8 +12,8 @@ All of the analysis has been developed using R version 3.1.1.
 
 ## Installation
 
-1. Download the data here:[URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-2. Execute the run_analysis.R script which performs the following:
+-  Download the data here:[URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+- Execute the run_analysis.R script which performs the following
 - Reads all of the pertinent files
 - Creates 3 separate data frames: masterDataSet, keyDataSet and subjectDataSet
 - Using these files, the data for all 3 is merged into one master data frame
