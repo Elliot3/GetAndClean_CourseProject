@@ -4,6 +4,24 @@
 
 This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+Included in the Data Source are:
+- activity_labels.txt: Relates activity labels to ids
+- features_info.txt: Explains the features selected for the exercise
+- features.txt: A file of all associated features
+- README.txt: A README file explaining the collection of files
+- test/subject_test.txt: Subjects who performed the activity
+- test/X_test.txt: The test set for the data
+- test/y_test.txt: Labels for the test set
+- train/subject_train.txt: Subjects who performed the activity
+- train/X_train.txt: Training set for the data
+- train/y_train.txt: Labels for the training set
+
+## Miscellaneous Information
+
+Aside from the variables identifed below, the following are also present:
+- activity_label: This relates an activity type to a particular subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
+- subject_id: This acts as a numeric identifier for each individual in the population (1-30)
+
 ## Feature Selection 
 
 I refer you to the README and features.txt files in the original dataset to learn more about the feature selection for this dataset. And there you will find the follow description:
